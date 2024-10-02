@@ -74,7 +74,6 @@ frequency_df = create_frequency_df(all_df)
 monetary_df = create_monetary_df(all_df)
 
 with st.sidebar:
-    # Menambahkan logo perusahaan
     st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
     st.title("Dominic Naufal")
 
