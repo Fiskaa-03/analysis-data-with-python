@@ -62,7 +62,7 @@ def create_monetary_df(all_data):
     return monetary_df
 
 try:
-    all_df = pd.read_csv("all_data.csv")
+    all_df = pd.read_csv("./all_data.csv")
 except Exception as e:
     st.error(f"Error loading data: {e}")
     st.stop()
