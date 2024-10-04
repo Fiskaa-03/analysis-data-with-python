@@ -62,8 +62,8 @@ def create_monetary_df(all_data):
     return monetary_df
 
 try:
-    # Untuk run local, gunakan path all_data.csv
-    all_df = pd.read_csv("dashboard/all_data.csv")
+    # all_df = pd.read_csv("all_data.csv") # Untuk Run Local
+    all_df = pd.read_csv("dashboard/all_data.csv") # Untuk Run Deploy
 except Exception as e:
     st.error(f"Error loading data: {e}")
     st.stop()
