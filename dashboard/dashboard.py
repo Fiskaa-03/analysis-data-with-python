@@ -78,7 +78,7 @@ with st.sidebar:
     st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
     st.title("Dominic Naufal")
 
-st.title('Dashboard')
+st.title('Analysis Data with Python Dashboard')
 st.header('Best Seller & Worst Products')
 
 col1, col2 = st.columns(2)
@@ -131,7 +131,9 @@ st.pyplot(fig)
 
 st.caption("Sao Paulo city would be the great place to penetrate a new market and have big chances for any category")
 
+
 # ============== RECENCY ===============================
+st.title('RFM Analysis')
 st.header('Customer Recency Analysis')
 fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(12, 6))
 
