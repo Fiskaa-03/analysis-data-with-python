@@ -12,5 +12,8 @@ Submission ini bertujuan untuk menganalisis data E-commerce menggunakan public d
 </code>
 
 ## Run Streamlit App
-cd dashboard
-streamlit run dashboard.py
+<code>
+  cd dashboard
+  streamlit run dashboard.py
+</code>
+
